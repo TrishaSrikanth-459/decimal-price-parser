@@ -1,7 +1,7 @@
 # Decimal price parser
 
 A small TypeScript utility for converting decimal currency strings into
-numeric values.
+numeric values. The return value is a JavaScript number.
 
 ## Examples
 
