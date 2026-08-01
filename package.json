@@ -1,0 +1,16 @@
+{
+  "name": "decimal-price-parser",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Parse decimal currency strings into numeric values",
+  "type": "module",
+  "scripts": {
+    "test": "node --import tsx --test tests/price.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}
